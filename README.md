@@ -1,2 +1,6 @@
-# Mudassir-resume_website
- to explore more about web development.
+# resume-mudassir
+working on buliding a resume website 
+
+
+to have a overview
+ https://mudassir097.github.io/resume-mudassir/
