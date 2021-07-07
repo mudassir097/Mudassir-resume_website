@@ -329,10 +329,12 @@ body {
   border: none;
 }
 .middle {
+  padding: 2%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 16px;
 }
 .card-front,
 .card-back {
@@ -353,19 +355,21 @@ body {
   transform: perspective(600px) rotateY(180deg);
   border: 2px solid #e7305b;
 }
+
 .front-content {
   font-size: 2rem;
-  color: #ffffff;
+ 
   background: #000000d0;
   padding: 5%;
   text-align: center;
   box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.3);
 }
 .back-content {
-  color: #ffffff;
+  
   position: absolute;
   font-family: "Montserrat", sans-serif;
 }
+
 .card:hover > .card-front {
   transform: perspective(600px) rotateY(-180deg);
 }
