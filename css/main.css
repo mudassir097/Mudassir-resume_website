@@ -617,116 +617,11 @@ body {
   color: #e63e49;
 }
 
-@media (max-width: 992px) {
-  body {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: "Roboto", sans-serif;
-    width: 100%;
-    overflow-x: hidden;
-  }
-  .education {
-    height: 100%;
-  }
-
-  .vertical-line {
-    width: 1px;
-    height: 80%;
-    border: 2px solid #000000;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-  }
-  .block1,
-  .block2,
-  .block3,
-  .block4 {
-    width: 100%;
-    display: block;
-  }
-
-  .train {
-    background: #000000e3;
-    text-align: center;
-  }
-  .pname {
-    display: block;
-  }
-  .l-detail {
-    border-radius: 0px;
-  }
-  .r-detail {
-    border-radius: 0px;
-  }
-  .social-box {
-    display: block;
-  }
-  .footer {
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  body {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: "Roboto", sans-serif;
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  .education {
-    height: 100%;
-  }
-
-  .vertical-line {
-    width: 1px;
-    height: 80%;
-    border: 2px solid #000000;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-  }
-  .block1,
-  .block2,
-  .block3,
-  .block4 {
-    width: 100%;
-    display: block;
-    position: static;
-  }
-
-  .train {
-    background: #000000e3;
-  }
-  .pname {
-    display: block;
-    writing-mode: horizontal-tb;
-  }
-  .l-detail {
-    border-radius: 0px;
-  }
-  .r-detail {
-    border-radius: 0px;
-  }
-  .social-box {
-    display: block;
-  }
-  .acc-content {
-    padding-left: 8%;
-  }
-}
 @media (max-width: 600px) {
   * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    overflow-x: hidden;
   }
   body {
     font-weight: 400;
@@ -734,6 +629,7 @@ body {
     line-height: 1.7;
     font-family: "Roboto", sans-serif;
     width: auto;
+    overflow-x: hidden;
   }
 
   body {
@@ -742,32 +638,34 @@ body {
     line-height: 1.7;
     font-family: "Roboto", sans-serif;
     width: 100%;
-    overflow-x: hidden;
   }
   .banner-bg {
     clip-path: none;
   }
   .banner-image {
-    width: 100%;
-    height: 60%;
+    width: 85%;
+    height: 55%;
     box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.8);
     z-index: 2;
     display: block;
     position: relative;
-    top: 5%;
+    top: 15%;
     left: 8%;
   }
-
+  .heading-image {
+    width: 400px;
+    height: 700px;
+  }
   .heading-primary {
     width: 80%;
-    height: 30%;
+    height: 20%;
     color: rgb(211, 192, 114);
 
     z-index: 1;
     text-align: center;
     display: block;
     position: absolute;
-    top: 65%;
+    top: 72%;
     left: 5%;
   }
   .heading-primary-main {
